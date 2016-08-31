@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Comics1</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="olvideclave">Olvidaste tu clave</string>
+    <string name="correo">Email</string>
+    <string name="contraseña">Clave</string>
+    <string name="entrar">Ingresa</string>
+    <string name="crearcuenta">Crear cuenta</string>
+    <string name="campoobligatorio">este campo es obligatorio</string>
+    <string name="todosloscampos">todos los campos</string>
+    <string name="contrasenacorta">clave muy corta</string>
+    <string name="ingresecorreo">ingrese email</string>
+    <string name="tienescuenta">Ya tienes cuenta</string>
+    <string name="terminos">terminos y condiciones</string>
+    <string name="registrate">registrate</string>
+    <string name="confirmarclave">Confirmar clave</string>
+    <string name="celular">celular</string>
+    <string name="nombre">Nombre</string>
+    <string name="contraseñasnocoinciden">las claves no coinciden</string>
+    <string name="contraeñasiguales">claves diferentes</string>
+    <string name="validarcorreo">formato de email no valido</string>
+    <string name="validarcelular">valida tu celular</string>
+</resources>

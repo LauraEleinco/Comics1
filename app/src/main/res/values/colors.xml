@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blueMaterialDesign">#448AFF</color>
+    <color name="blueSuaveMaterialDesign">#B2EBF2</color>
+    <color name="violetSuaveMaterialDesign">#E1BEE7</color>
+    <color name="redMaterialDesign">#FF5252</color>
+
+    <color name="darkPrimaryColor">#388E3C</color>
+    <color name="primaryColor">#4CAF50</color>
+    <color name="lightPrimaryColor">#C8E6C9</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="accentColor">#8BC34A</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="darkGray">#616161</color>
+    <color name="dividerColor">#BDBDBD</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorToolbar">#388E3C</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#212121</color>
+    <color name="colorDrawer">#FFFFFF</color>
+    <color name="tabsScrollColor">#212121</color>
+    <color name="verde">#76FF03</color>
+    <color name="gris">#edecd7</color>
+
+
+    <color name="amarilloEstrella">#FFEB3B</color>
+
+
+    <color name="primary">#E43F3F</color>
+    <color name="primary_dark">#E12929</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="olvidarclave">#2A00D1</color>
+</resources>
