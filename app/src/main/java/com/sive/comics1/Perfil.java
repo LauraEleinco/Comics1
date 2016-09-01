@@ -22,7 +22,6 @@ public class Perfil extends AppCompatActivity {
     final Context tempContext = this;
 
     TextView et_nombre, et_celular, et_email;
-    Button bt_cambio;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +37,6 @@ public class Perfil extends AppCompatActivity {
         et_nombre = (TextView) findViewById(R.id.tv_nombrePerfil);
         et_celular = (TextView) findViewById(R.id.tv_celularPerfil);
         et_email = (TextView) findViewById(R.id.tv_emailPerfil);
-        bt_cambio = (Button) findViewById(R.id.btn_cambiar);
 
         if ( !pref_email.equals("") && !pref_pass.equals("") && !pref_nombre.equals("") && !pref_celular.equals("")) {
             //Recuperamos la información pasada en el intent
