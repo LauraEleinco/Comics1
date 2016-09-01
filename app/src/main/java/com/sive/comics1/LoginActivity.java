@@ -84,14 +84,6 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
-            OlvideClave = (TextView) findViewById(R.id.olvidarcuenta);
-            OlvideClave.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    olvide();
-                }
-            });
-
             SharedPreferences preferences=getSharedPreferences("credenciales", Context.MODE_PRIVATE);
             String pref_email = preferences.getString("pref_Email", "");
             String pref_pass = preferences.getString("pref_Pass", "");
@@ -161,26 +153,6 @@ public class LoginActivity extends AppCompatActivity {
                // conexionSW.ConsultarUsuario(s_email, contrasena, this, false, false);
             }
         }
-
-
-        //oldive mi cuenta
-        public void olvide() {
-            String s_email = Email.getText().toString();
-            if(s_email.isEmpty()){
-                Email.setError(getResources().getString(R.string.ingresecorreo));
-            }else {
-                // en caso de que este vacio, sacarla alerta de error
-                if(s_email.equals("")){
-                    Snackbar snackbar = Snackbar.make(findViewById(R.id.login_xml), getResources().getString(R.string.todosloscampos), Snackbar.LENGTH_LONG);
-                    snackbar.getView().setBackgroundColor(getResources().getColor(R.color.redMaterialDesign));
-                    snackbar.show();
-                }
-
-             //   opWebSer conexionSW = new opWebSer();
-               // conexionSW.recuperarPass(s_email, this);
-            }
-        }
-
 
         //metodo que redirecciona a clase registro
         public void CreaCuenta() {
